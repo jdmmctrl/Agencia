@@ -1,0 +1,26 @@
+* pip install virtualenv
+* python -m virtualenv venv
+* venv\Scripts\activate
+* pip install django
+* django-admin startproject core .
+* pip install django-environ
+* pip install django-cors-headers
+* pip install djangorestframework
+* pip install Pillow
+* pip install django-storages
+* pip install django-ckeditor
+* pip install psycopg2
+* pip freeze > requirements.txt
+* pip install -r requirements.txt
+* touch .env
+* touch .gitignore
+    *** https://www.toptal.com/developers/gitignore
+        
+* python manage.py startapp blog
+* python manage.py runserver
+* python manage.py createsuperuser
+* python manage.py makemigrations
+* python manage.py migrate
+* pip install django-environ
+* pip freeze > requirements.txt
+* pip install -r requirements.txt
