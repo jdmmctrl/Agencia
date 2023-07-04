@@ -16,6 +16,74 @@
 * touch .gitignore
     *** https://www.toptal.com/developers/gitignore
         
+* npx create-react-app agencia_marketing
+            *** cpiamos
+                ** public   
+                ** src
+                ** packge.json
+* npm i
+* npm start
+* npm run build
+* python manage.py collectstatic
+* npm install -D tailwindcss postcss autoprefixer
+* npx tailwindcss init -p
+* npm i react-router-dom
+* npm i redux redux-thunk react-redux redux-devtools-extension react-router-dom axios
+* npm i typescript
+    *** touch tsconfig
+            *** 
+                {
+                    "compilerOptions": {
+                        "baseUrl": "src",
+                        "target": "ES5",
+                        "lib": ["DOM", "DOM.Iterable", "ESNext"],
+                        "allowJs": true,
+                        "skipLibCheck": true,
+                        "esModuleInterop": true,
+                        "allowSyntheticDefaultImports": true,
+                        "strict": true,
+                        "forceConsistentCasingInFileNames": true,
+                        "noFallthroughCasesInSwitch": true,
+                        "module": "ESNext",
+                        "moduleResolution": "node",
+                        "resolveJsonModule": true,
+                        "isolatedModules": true,
+                        "noEmit": true,
+                        "jsx": "react-jsx"
+                        },
+                        "include": ["src"]
+                        }
+
+        *** mkdir redux/
+                        mkdir actions/
+                        mkdir reducers/
+                            touch index.js
+                                    import { combineReducers } from "redux";
+export default combineReducers({})
+
+        *** mkdir containers/
+                mkdir Errors/
+                    touch Error404.jsx
+                        function Error404() {
+                            return (
+                                <div>
+                                <h1>Error404</h1>
+                                </div>
+                            );
+                            }
+
+                        export default Error404;
+                mkdir pages/
+                    touch Home.jsx
+                        function Home() {
+                            return (
+                                <div>
+                                <h1>Home</h1>
+                                </div>
+                            );
+                            }
+
+                            export default Home;
 * python manage.py startapp blog
 * python manage.py runserver
 * python manage.py createsuperuser
